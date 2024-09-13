@@ -1,0 +1,35 @@
+.header{
+    background-image: linear-gradient(270deg, #0182d0, #07184a);
+    height: 130px;
+    font-family: sans-serif;
+}
+.header__navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.header__navbar-list{
+    list-style: none;
+    padding: 40px;
+}
+.header__navbar-item,
+.header__navbar-item-link{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.header__navbar-item{
+    padding: 0 15px 100px;
+}
+.header__navbar-item-link:hover,
+.header__navbar-item:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.6);
+}
+.logo{
+    padding: 15px;
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
